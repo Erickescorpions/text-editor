@@ -7,6 +7,5 @@ int main() {
   push_stack(s, action);
   Action_t* popped_action = pop_stack(s);
 
-
   print_action(popped_action);
 }
